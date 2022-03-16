@@ -247,6 +247,7 @@ nav ul li a:hover {
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .project {
@@ -261,18 +262,38 @@ nav ul li a:hover {
 }
 
 .one {
-	background-image: url(./images/company_1.jpg);
-	background-size: contain;
+	background-image: url(./images/pomodoro.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .two {
-	background-image: url(./images/company_2.jpg);
-	background-size: contain;
+	background-image: url(./images/foodmenu.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .three {
-	background-image: url(./images/company_3.jpg);
-	background-size: contain;
+	background-image: url(./images/stopwatch.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.four {
+	background-image: url(./images/passenger.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.five {
+	background-image: url(./images/weather.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .project #hide {
